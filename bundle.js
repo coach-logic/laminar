@@ -406,6 +406,11 @@ const waitMiddleware = () => {
   return middleware;
 };
 
+const config$1 = {
+  onErrorConfig: config,
+};
+
+exports.config = config$1;
 exports.consoleLogMiddleware = consoleLogMiddleware;
 exports.createFlow = createFlow;
 exports.fetchMiddleware = fetchMiddleware;
