@@ -12,7 +12,7 @@ export * from './src/middleware/save-response/save-response.middleware.js';
 export * from './src/middleware/validate/validate-response.middleware.js';
 export * from './src/middleware/wait/wait.middleware.js';
 
-import { config as onErrorConfig } from './src/lamnr.errors';
+import { config as onErrorConfig } from './src/lamnr.onError.js';
 
 export const config = {
   onErrorConfig,
